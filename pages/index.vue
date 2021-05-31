@@ -1,5 +1,5 @@
 <template>
-  <div class="container center p-24">
+  <div class="container center p-8 sm:p-8 lg:p-24">
     <span class="text-5xl text-white">
       Hi, I'm Victor Nascimento
     </span>

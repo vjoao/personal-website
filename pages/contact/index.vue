@@ -1,13 +1,13 @@
 <template>
-  <div class="container p-24">
+  <div class="container p-8 sm:p-8 lg:p-24">
     <span class="text-5xl text-white">
       Wanna reach out?
 
-      <p class="text-xl text-gray-500 container sm:w-screen w-3/5 mb-8">
+      <p class="text-xl text-gray-500 container lg:w-3/5 sm:w-screen mb-8">
         You can find me in the following links:
       </p>
     </span>
-    <div class="flex flex-row justify-between w-1/3">
+    <div class="flex flex-row justify-between lg:w-1/3 sm:w-2/3">
       <a href="https://www.linkedin.com/in/vjoao/" target="_blank">
         <svg class="h-8 w-8 text-gray-500 hover:text-blue-900"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
       </a>

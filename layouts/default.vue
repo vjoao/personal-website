@@ -1,15 +1,15 @@
 <template>
   <div class="min-h-screen overflow-hidden flex flex-col bg-gray-900">
-    <div class="p-6 bg-gray-200 h-100">
+    <div class="p-6 bg-gray-200 h-100 sticky">
       <div class="flex items-center justify-center mt-6 text-2xl text-gray-600 capitalize dark:text-gray-300">
         <n-link
           to="/"
-          class="text-gray-800 dark:text-gray-200 border-b-2">
+          class="text-gray-800 dark:text-gray-200 border-b-2 mx-6">
             About
         </n-link>
         <n-link
           to="contact"
-          class="text-gray-800 dark:text-gray-200 border-b-2 mx-1.5 sm:mx-6">
+          class="text-gray-800 dark:text-gray-200 border-b-2 mx-6">
             Contact
         </n-link>
       </div>
