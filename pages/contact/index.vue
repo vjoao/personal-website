@@ -2,6 +2,10 @@
   <div class="container p-24">
     <span class="text-5xl text-white">
       Wanna reach out?
+
+      <p class="text-xl text-gray-500 container sm:w-screen w-3/5 mb-8">
+        You can find me in the following links:
+      </p>
     </span>
     <div class="flex flex-row justify-between w-1/3">
       <a href="https://www.linkedin.com/in/vjoao/" target="_blank">

@@ -1,10 +1,10 @@
 <template>
   <div class="min-h-screen overflow-hidden flex flex-col bg-gray-900">
-    <div class="container p-6 bg-gray-200 h-100">
-      <div class="flex items-center justify-center mt-6 text-gray-600 capitalize dark:text-gray-300">
+    <div class="p-6 bg-gray-200 h-100">
+      <div class="flex items-center justify-center mt-6 text-2xl text-gray-600 capitalize dark:text-gray-300">
         <n-link
           to="/"
-          class="text-gray-800 dark:text-gray-200 border-b-2 mx-1.5 sm:mx-6">
+          class="text-gray-800 dark:text-gray-200 border-b-2">
             About
         </n-link>
         <n-link
@@ -14,7 +14,6 @@
         </n-link>
       </div>
     </div>
-    <img class="w-2/5 absolute top-0 h-screen push-right z-50" src="./profile.png" />
 
     <Nuxt class="flex-grow" />
     <footer class="p-4 bg-gray-800 text-gray-500">
