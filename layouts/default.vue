@@ -25,13 +25,6 @@
   </div>
 </template>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
-
-body {
-  font-family: 'Baloo Tammudu 2', cursive;
-  overflow: hidden;
-}
-
 .push-right {
   right: -40px;
 }
