@@ -17,6 +17,20 @@
 </template>
 <script>
 export default {
+  head() {
+    return {
+      title: 'Victor Nascimento - Personal Website',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          name: 'Victor Nascimento',
+          content: 'Personal website of Victor Nascimento.'
+        },
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      ]
+    }
+  },
   data() {
     return {
       skills: [
@@ -52,6 +66,6 @@ export default {
     hobbyList() {
       return this.hobbies.join(', ');
     }
-  }
+  },
 }
 </script>

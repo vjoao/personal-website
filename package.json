@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/vjoao/personal-website#readme",
   "dependencies": {
+    "@nuxtjs/robots": "^2.5.0",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
