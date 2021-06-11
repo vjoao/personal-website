@@ -10,7 +10,7 @@
         building software used by millions in their living rooms.
       </p>
       <p class="text-xl text-gray-500 container lg:w-4/5 sm:w-screen">
-        My skillset includes <span class="text-gray-300">{{ skillList }}</span> but I had contact with {{ extraSkillList }}. I'm also interested in <span class="text-gray-300">{{ hobbyList }}</span>.
+        My non-exhaustive list of skills includes <span class="text-gray-300">{{ skillList }}</span> and I had contact with {{ extraSkillList }}. I'm also interested in <span class="text-gray-300">{{ hobbyList }}</span> in my free time.
       </p>
     </div>
   </div>
