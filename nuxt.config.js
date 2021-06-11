@@ -7,7 +7,8 @@ export default {
     linkExactActiveClass: 'border-blue-500'
   },
   googleAnalytics: {
-    id: 'G-552T1HM19S'
+    id: 'G-552T1HM19S',
+    pageTracking: true,
   },
   googleFonts: {
     families: {
