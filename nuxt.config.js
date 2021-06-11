@@ -7,7 +7,7 @@ export default {
     linkExactActiveClass: 'border-blue-500'
   },
   gtm: {
-    id: 'G-552T1HM19S',
+    id: 'GTM-NDFC6V9',
     pageTracking: true,
   },
   googleFonts: {
