@@ -7,7 +7,7 @@
       <p class="text-xl text-gray-500 container lg:w-4/5 sm:w-screen mb-8">
         A generalist software engineer with focus on web technologies.
         I currently work as a Lead Front-end Engineer at <a href="https://www.warnermedia.com" target="_blank" class="text-gray-300">WarnerMedia</a>,
-        building software used by millions in their living room.
+        building software used by millions in their living rooms.
       </p>
       <p class="text-xl text-gray-500 container lg:w-4/5 sm:w-screen">
         My skillset includes <span class="text-gray-300">{{ skillList }}</span> but I had contact with {{ extraSkillList }}. I'm also interested in <span class="text-gray-300">{{ hobbyList }}</span>.
@@ -21,7 +21,6 @@ export default {
     return {
       title: 'Victor Nascimento - Personal Website',
       meta: [
-        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
           name: 'Victor Nascimento',
           content: 'Personal website of Victor Nascimento.'
@@ -47,12 +46,16 @@ export default {
         'Cybersecurity',
         'Electronics',
         'Embedded systems',
-        'PHP / Laravel'
+        'PHP / Laravel',
+        'Angular',
+        'Java',
+        'C++ / C#'
       ],
       hobbies: [
         'Playing guitar',
         'Video games',
-        'Competitive programming'
+        'Competitive programming',
+        'Rubiks Cube'
       ]
     }
   },
