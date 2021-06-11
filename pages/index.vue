@@ -30,6 +30,10 @@ export default {
       ]
     }
   },
+  mounted() {
+    this.$fire.analytics.setCurrentScreen('home');
+    this.$fire.analytics.logEvent('screen_view');
+  },
   data() {
     return {
       skills: [

@@ -26,11 +26,14 @@
 
 <script>
 export default {
+  mounted() {
+    this.$fire.analytics.setCurrentScreen('contact');
+    this.$fire.analytics.logEvent('screen_view');
+  },
   methods: {
     onContactClick(contact) {
-      this.$gtm.push({
-        event: 'contact_click',
-        contact: contact
+      this.$fire.analytics.logEvent('contact_click', {
+        contact
       });
     }
   }
