@@ -28,11 +28,10 @@
 export default {
   methods: {
     onContactClick(contact) {
-      this.$ga.event({
-        eventCategory: 'contact',
-        eventAction: 'click',
-        eventLabel: contact
-      })
+      this.$gtm.push({
+        event: 'contact_click',
+        contact: contact
+      });
     }
   }
 }
